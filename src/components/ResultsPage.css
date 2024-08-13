@@ -1,0 +1,48 @@
+.results-page {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.filter-bar input {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-bar button:hover {
+  background-color: #0056b3;
+}
+
+.map-and-results-container {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.doctor-profile-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  flex: 1;
+}

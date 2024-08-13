@@ -1,0 +1,116 @@
+/* DoctorProfilePage.css */
+
+.doctor-profile-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.profile-container {
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.doctor-name {
+  font-weight: bold;
+}
+
+.doctor-speciality {
+  color: #555;
+}
+
+.info-tab,
+.consult-tab,
+.stories-tab {
+  margin-top: 20px;
+}
+
+.question-input,
+.story-input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.question-list,
+.story-list {
+  margin-top: 20px;
+}
+
+.question-card,
+.story-card {
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.question-card:last-child,
+.story-card:last-child {
+  margin-bottom: 0;
+}
+
+.question-card .MuiCardContent-root,
+.story-card .MuiCardContent-root {
+  padding: 10px 15px;
+}
+
+.question-card .MuiTypography-body1,
+.story-card .MuiTypography-body1 {
+  color: #333;
+}
+
+.book-appointment-button {
+  margin-top: 20px;
+  width: auto; /* Reduces the width of the button */
+  background-color: #28a745; /* Green background similar to the image */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.book-appointment-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+.toggle-section {
+  margin-top: 20px;
+}
+
+.consult-qa-section,
+.patient-stories-section {
+  margin-top: 20px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
+
+.book-appointment-button {
+  margin-top: 20px;
+  width: 100%; /* Adjust width if needed */
+}
+

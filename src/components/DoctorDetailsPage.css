@@ -1,0 +1,45 @@
+.doctor-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .details-container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .details-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .details-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .doctor-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reviews-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    transition: transform 0.3s;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-appointment-button {
+    margin-top: 20px;
+  }
+  

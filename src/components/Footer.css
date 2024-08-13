@@ -1,0 +1,61 @@
+/* Footer CSS */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+/* Main content area adjustments */
+.main-content {
+  min-height: calc(100vh - 120px); /* Adjust the height based on the footer's height */
+  padding-bottom: 120px; /* This value should match the footer's height to prevent overlap */
+}

@@ -1,0 +1,48 @@
+.register-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.left-container {
+  flex: 1;
+  background: url('D:/New folder/doc_app2/doc_app2/src/assets/doc theme4.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.right-container {
+  flex: 1;
+  background: #ffffff;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%; /* Full width up to a maximum of 400px */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+button.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.submit-button:hover {
+  background-color: #0056b3;
+}
